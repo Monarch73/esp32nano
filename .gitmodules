@@ -1,6 +1,9 @@
-[submodule "hardware/esp32"]
-	path = hardware/esp32
-	url = https://github.com/espressif/arduino-esp32
 [submodule "makeFile"]
 	path = makeFile
 	url = https://github.com/Monarch73/PowershellMakeEspArduino.git
+[submodule "hardware/esp32/esp32"]
+	path = hardware/esp32/esp32
+	url = https://github.com/espressif/arduino-esp32.git
+[submodule "libraries/ESPAsyncWebServer"]
+	path = libraries/ESPAsyncWebServer
+	url = https://github.com/me-no-dev/ESPAsyncWebServer.git
