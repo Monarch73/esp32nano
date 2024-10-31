@@ -1,1 +1,1 @@
-make -f .\makeFile\makeEspArduino.mk CHIP=esp32 ESP_ROOT=./hardware/esp32 BOARD=NANO32 FLASH_DEF=4M2M SKETCH=./src/main.ino
+make -f .\makeFile\makeEspArduino.mk CHIP=esp32 CPU=esp32 ESP_ROOT=./hardware/esp32 BOARD=nano32 FLASH_DEF=4M2M SKETCH=./src/main.ino BUILD_THREADS=2 MK_FS_PATH=.\hardware\esp32\tools\mkspiffs\mkspiffs.exe all
